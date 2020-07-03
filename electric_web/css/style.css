@@ -1,0 +1,788 @@
+﻿@charset "utf-8";
+/* CSS Document */
+* {
+    margin: 0;
+    padding: 0
+}
+
+ul li {
+    list-style: none
+}
+
+img {
+    border: 0;
+    max-width: 100%
+}
+
+a {
+    text-decoration: none;
+    color: #444
+}
+
+.clear {
+    clear: both
+}
+
+body {
+    font-family: "微软雅黑";
+    width: 100%;
+    min-width: 1200px;
+    color: #444;
+    font-size: 13px;
+    line-height: 28px;
+}
+
+.ccsl {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+p {
+    text-align: justify
+}
+
+.main {
+    width: 1060px;
+    margin: 0 auto;
+}
+
+.banner {
+    width: 100%;
+    min-width: 1200px; /*height:400px;*/
+    overflow: hidden;
+    position: relative;
+    font-size: 0;
+    margin: 0 auto;
+}
+
+.b-img { /*height:400px;*/
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.b-img img {
+    display: block; /*height:400px;*/
+    float: left;
+}
+
+.b-list {
+    height: 20px; /*padding-top:380px;*/
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.b-list span {
+    display: block;
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fff;
+    float: left;
+    margin: 0 5px;
+    _margin: 0 3px;
+}
+
+.b-list .spcss {
+    background: #d8241d
+}
+
+.logo {
+    width: 1060px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.logo img {
+    display: block;
+    width: 1060px;
+}
+
+.nav {
+    width: 100%;
+    min-width: 1200px;
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    background: #004DA1
+}
+
+.nav ul {
+    overflow: hidden
+}
+
+.nav ul li {
+    float: left;
+    width: 110px;
+    font-size: 15px;
+    height: 50px;
+    margin-right: 1px;
+    line-height: 50px;
+}
+
+.nav ul li a {
+    text-align: center;
+    display: block;
+    color: #fff;
+}
+
+.nav ul li:hover a, .nav ul li.on a {
+    background: #eee;
+    color: #004DA1
+}
+
+.part1 {
+    width: 100%;
+    min-width: 1200px;
+    overflow: hidden;
+    padding: 50px 0px;
+    background: url(../images/bg.jpg) repeat;
+}
+
+.part1 .main {
+    width: 1060px;
+    overflow: hidden;
+    height: 180px;
+    margin: 0px auto;
+}
+
+.part1 .main .aboutimg {
+    width: 270px;
+    height: 180px;
+    display: block;
+    float: left;
+    overflow: hidden
+}
+
+.part1 .main .con {
+    width: 770px;
+    height: 180px;
+    float: right;
+    font-size: 14px;
+    line-height: 26px;
+    overflow: hidden;
+}
+
+.part2 {
+    width: 1060px;
+    height: auto;
+    overflow: hidden;
+    margin: 50px auto;
+}
+
+.part2 .titbox {
+    width: 1060px;
+    margin: 0px auto;
+    margin-bottom: 15px;
+    height: 20px;
+    line-height: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 12px;
+    background: url(../images/icon.png) no-repeat 4px top;
+}
+
+.part2 .titbox p {
+    float: left;
+    max-width: 600px;
+    color: #004DA1;
+    padding-left: 25px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.part2 .titbox p span {
+    font-size: 14px;
+    color: #999;
+    font-weight: normal;
+    text-transform: uppercase
+}
+
+.part2 .titbox a {
+    float: right;
+    display: block;
+    background: url(../images/add.png) no-repeat center right;
+    padding-right: 16px;
+    color: #444
+}
+
+.part2 .pa2L {
+    float: left;
+    width: 400px;
+    height: 320px;
+    overflow: hidden
+}
+
+.part2 .pa2L a.ccsl {
+    font-size: 16px;
+    padding: 8px 0px 2px 0px;
+    color: #444;
+    font-weight: bold
+}
+
+.part2 .pa2L a.ccsl:hover {
+    color: #004DA1
+}
+
+.part2 .pa2L .sub {
+    font-size: 12px;
+    line-height: 20px;
+    height: 60px;
+    overflow: hidden;
+    color: #777;
+}
+
+.part2 .pa2R {
+    float: right;
+    width: 610px;
+    height: 320px;
+    overflow: hidden
+}
+
+.part2 .pa2R ul {
+    overflow: hidden
+}
+
+.part2 .pa2R ul li {
+    height: 39px;
+    border-bottom: 1px solid #e4e4e4;
+    line-height: 39px;
+    font-size: 14px;
+    background: url(../images/icon2.png) no-repeat 5px 17px;
+    text-indent: 20px;
+}
+
+.part2 .pa2R ul li a {
+    float: left;
+    max-width: 450px;
+    color: #444
+}
+
+.part2 .pa2R ul li a:hover {
+    color: #004DA1
+}
+
+.part2 .pa2R ul li span {
+    float: right;
+    margin-right: 5px;
+    font-size: 12px;
+    color: #999;
+}
+
+.part3 {
+    width: 100%;
+    min-width: 1200px;
+    height: auto;
+    background: #E6E9F7;
+    padding: 50px 0px;
+    overflow: hidden;
+}
+
+.part3 .titbox {
+    width: 960px;
+    margin: 0px auto;
+}
+
+.part3 .titbox h1 {
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: #333;
+    background: url(../images/icon3.png) no-repeat center bottom;
+    padding-bottom: 10px;
+}
+
+.part3 .titbox .sub {
+    width: 960px;
+    height: auto;
+    line-height: 25px;
+    font-size: 12px;
+    color: #777;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.part3 ul {
+    width: 1060px;
+    height: 305px;
+    margin: 0px auto;
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+.part3 ul li {
+    width: 250px;
+    height: 270px;
+    background: #FFF;
+    border-top: 5px solid #666;
+    float: left;
+    margin-right: 20px;
+}
+
+.part3 ul li:nth-child(4n) {
+    margin-right: 0
+}
+
+.part3 ul li h3 {
+    font-size: 15px;
+    color: #004DA1;
+    width: 230px;
+    padding: 8px 10px 0px 10px;
+}
+
+.part3 ul li .sub {
+    width: 220px;
+    font-size: 12px;
+    line-height: 24px;
+    padding-left: 10px;
+    color: #666;
+    height: 50px;
+    overflow: hidden
+}
+
+.pa2C {
+}
+
+.pa2C ul {
+    overflow: hidden
+}
+
+.pa2C ul li {
+    float: left;
+    width: 500px;
+    height: 62px;
+    margin: 0px 30px 15px 15px;
+}
+
+.pa2C ul li .date {
+    width: 60px;
+    height: 62px;
+    background: #e2e2e2;
+    overflow: hidden;
+    float: left;
+    text-align: center;
+}
+
+.pa2C ul li .date p {
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 25px;
+    border-bottom: 1px solid #FFF;
+    text-align: center;
+}
+
+.pa2C ul li .date span {
+    width: 60px;
+    height: 21px;
+    line-height: 21px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.pa2C ul li:hover .date p {
+    background: #004DA1;
+    color: #FFF;
+}
+
+.pa2C ul li:hover .date span {
+    background: #004DA1;
+    color: #FFF;
+}
+
+.pa2C ul li .con {
+    width: 425px;
+    height: 62px;
+    float: right;
+    overflow: hidden
+}
+
+.pa2C ul li .con a {
+    width: 425px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+.pa2C ul li .con .sub {
+    width: 425px;
+    height: 36px;
+    line-height: 18px;
+    font-size: 12px;
+    color: #888;
+}
+
+.pa2C ul li:hover .con a {
+    color: #004DA1
+}
+
+.pa2C ul li:nth-child(2n) {
+    margin-right: 0
+}
+
+.footer {
+    width: 100%;
+    min-width: 1200px;
+    background: #bbb;
+    overflow: hidden
+
+}
+
+.footer .main {
+    padding-bottom: 20px;
+}
+
+.fLeft {
+    float: left;
+    padding: 25px 20px 15px 20px;
+    text-align: center;
+    background: #999;
+    color: #FFF;
+}
+
+.fLeft p {
+    text-align: center;
+    width: 120px;
+}
+
+.fRight {
+    width: 870px;
+    float: right;
+    margin-top: 20px;
+    overflow: hidden
+}
+
+.fnav {
+    border-bottom: 1px solid #DDD;
+    padding-bottom: 10px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 7px;
+}
+
+.fnav a {
+    display: block;
+    background: #999;
+    color: #FFF;
+    font-size: 13px;
+    text-align: center;
+    width: 94px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-right: 20px
+}
+
+.fnav a:hover {
+    background: #004DA1;
+    font-size: 13px;
+    color: #FFF;
+}
+
+.fcon {
+    width: 870px;
+    color: #333;
+    line-height: 25px;
+    font-size: 13px;
+}
+
+.mainWarp {
+    width: 1060px;
+    margin: 40px auto 50px;
+    overflow: hidden;
+}
+
+.mainLeft {
+    width: 240px;
+    float: left;
+    overflow: hidden
+}
+
+.mainLeft .titbox {
+    width: 240px;
+    background: #004DA1;
+    height: 80px;
+    line-height: 80px;
+}
+
+.mainLeft .titbox p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+ul.typeul {
+    overflow: hidden
+}
+
+ul.typeul li {
+    text-transform: capitalize;
+    display: block;
+    overflow: hidden;
+    height: 37px;
+    line-height: 37px;
+    background: #ddd url(../images/icon4.png) no-repeat 220px 16px;
+    margin-top: 3px;
+}
+
+ul.typeul li a {
+    font-size: 13px;
+    padding-left: 20px;
+    color: #666
+}
+
+ul.typeul li:hover {
+    background: #aaa url(../images/icon4.png) no-repeat 220px 16px;
+}
+
+ul.typeul li:hover a {
+    color: #fff
+}
+
+.lxwm {
+    border: 1px solid #ccc;
+    margin-top: 10px
+}
+
+.lxwm .con {
+    padding: 10px;
+}
+
+.mainRight {
+    width: 780px;
+    overflow: hidden;
+    float: right;
+}
+
+.brandnavbox {
+    height: 40px;
+    line-height: 40px;
+    background: url(../images/icon.png) no-repeat left 10px;
+    overflow: hidden;
+}
+
+.brandnavbox p {
+    float: left;
+    max-width: 250px;
+    padding-left: 17px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #004DA1;
+}
+
+.brandnavbox .con {
+    float: right;
+    max-width: 300px;
+    font-size: 12px;
+    color: #555
+}
+
+ul.listul {
+    width: 780px;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 30px;
+    padding-top: 10px
+}
+
+ul.listul li {
+    width: 780px;
+    height: 43px;
+    overflow: hidden;
+    line-height: 43px;
+    background: url(../images/icon2.png) no-repeat 7px 18px;
+    border-bottom: 1px solid #eee;
+}
+
+ul.listul li a {
+    text-indent: 20px;
+    font-size: 14px;
+    float: left;
+    max-width: 600px;
+}
+
+ul.listul li span {
+    float: right;
+    color: #555;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+ul.listul li:hover {
+    background: #eee url(../images/icon2.png) no-repeat 7px 18px;
+}
+
+ul.listul li:hover a {
+    color: #004DA1;
+}
+
+ul.listul li:hover span {
+    color: #004DA1;
+}
+
+ul.piclistul {
+    width: 780px;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 30px;
+    padding-top: 10px
+}
+
+ul.piclistul li {
+    float: left;
+    width: 185px;
+    margin-right: 13px;
+}
+
+ul.piclistul li:nth-child(4n) {
+    margin-right: 0
+}
+
+ul.piclistul li .proimg {
+    _display: table;
+    display: table-cell;
+    text-align: center;
+    width: 179px;
+    height: 146px;
+    border: 1px solid #ddd;
+    vertical-align: middle;
+    padding: 2px
+}
+
+ul.piclistul li .proimg img {
+    vertical-align: middle;
+    max-height: 140px;
+    max-width: 179px;
+}
+
+ul.piclistul li p {
+    text-align: center;
+    line-height: 30px
+}
+
+ul.piclistul li:hover p {
+    color: #004DA1
+}
+
+ul.piclistul li:hover .proimg {
+    border: 1px solid #004DA1
+}
+
+.detailbox {
+    width: 780px;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 30px;
+    padding-top: 10px
+}
+
+.detailbox .xq {
+}
+
+.detailbox .xq h1 {
+    font-size: 19px;
+    font-weight: bold;
+    color: #444;
+    line-height: 25px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.detailbox .xq .date {
+    margin-bottom: 10px;
+    line-height: 15px;
+    font-size: 12px;
+    text-align: center
+}
+
+.detailbox .xq .con {
+    font-size: 14px;
+    color: #444;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+
+.detailbox .xq .pproimg {
+    display: block;
+    margin: 0 auto;
+    max-width: 620px;
+    margin-bottom: 20px
+}
+
+.pagebox {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px
+}
+
+.pagebox a {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    display: inline-block;
+    color: #333;
+    margin: 3px
+}
+
+.pagebox a:hover {
+    background: #033396;
+    color: #fff
+}
+
+.pagebox a.on {
+    background: #033396;
+    color: #fff
+}
+
+.logo {
+    width: 100%;
+    height: 86px;
+}
+
+.index-top {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+    color: #28568a;
+}
+
+.index-top img {
+    width: 30px;
+    height: 20px;
+}
+.company-name {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.company-contact {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 13px;
+}
+
+.company-contact span {
+    margin-top: 2px;
+}
+
+.company-product > li {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
