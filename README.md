@@ -1,1 +1,0 @@
-# compony-web
