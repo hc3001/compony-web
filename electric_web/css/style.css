@@ -212,7 +212,7 @@ p {
 .part2 .pa2L {
     float: left;
     width: 400px;
-    height: 320px;
+    height: 340px;
     overflow: hidden
 }
 
@@ -230,7 +230,7 @@ p {
 .part2 .pa2L .sub {
     font-size: 12px;
     line-height: 20px;
-    height: 60px;
+    height: 78px;
     overflow: hidden;
     color: #777;
 }
@@ -762,6 +762,10 @@ ul.piclistul li:hover .proimg {
 .company-name {
     font-size: 30px;
     font-weight: 600;
+}
+
+.company-name .en {
+    font-size: 15px;
 }
 
 .company-contact {
